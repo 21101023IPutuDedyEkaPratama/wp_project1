@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Konversi Suhu</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <div id="isi">
+        <h1 class="home">Konversi Suhu</h1>
+        <hr>
+    <form name="project_1" method="POST" action="#">
+        <tr>
+            <td align="right">Suhu</td>
+            <th>:</th>
+            <td><input type="text" name="suhu" placeholder="Masukan Suhu"></td>
+        </tr>
+        <tr>
+            <td align="right">Type Konversi</td>
+            <th>:</th>
+            <td>
+                <select name="Konversi Suhu">
+                    <optgroup label="type konversi suhu">
+                        <option value="0" hidden selected>---pilih type konversi</option>
+                        <option value="1">celcius ke fahrenhait</option>
+                        <option value="2">fahrenhait ke celcius
+                        <option value="3">Reamur ke Celcius</option>
+                        <option value="4">Reamur ke Fahrenheit</option>
+                        <option value="5">Fahrenheit ke Celcius</option>
+                        <option value="6">Fahrenheit ke Reamur</option>
+                        </option>
+                    </optgroup>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="3"><input type="submit" name="konversi" value="konversi"></th>
+        </tr>
+    </form>
+    </div>
+    
+</body>
+</html>
